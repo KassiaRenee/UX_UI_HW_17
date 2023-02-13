@@ -1,56 +1,185 @@
-.header{
+img{
+    max-width: 100%;
+}
+
+#allSections{
+    background-color: #EABD9D;
+    margin:0px !important;
+
+}
+body{
+    margin:0px !important;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'EB Garamond', serif;
     background-color: #EFE3CF;
-
-}
-.intro{
-    background-color: #222E22;
-    color: white;
 }
 
-.inline-block{
-    display: inline-block;
-    vertical-align: top;}
-
-div.logo{
-    width: 15%;
-    padding: 1%;
+header{
+    margin:0px !important;
+    background-color: #EFE3CF;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-color: 1px #222E22;
+    padding:10px;
+    width:95%;
+    Margin-left:10%;
+    margin:auto;
 }
 
-nav {
-    width: 73%;
-    padding: 1%
+.navMenu{
+    display:flex;
 }
-ul{
-    width: 50%;
-    margin-left: auto;}
+
+.navMenu li{
+    list-style: none;
+    padding: 20px;
+    font-family: 'raleway', sans-serif
+    font-size: 33px;
+    letter-spacing: 1px;
+}
+
+.leftNav{
+    display:flex;
+    align-items: center;
+
+}
+
+.rightNav{
+    display:flex;
+    align-items: center;
+}
 
 .logo{
-    text-align: center;
-} 
+    display:flex;
+    justify-content:left;
+}
+.myEmail{
+    padding: 10px;
+}
 
-.heroImage{
-    height: 600px;
-    padding: 25px;
-} 
+.linkedIn{
+    padding:10px;
+}
+
+#introductionPage{
+    display:flexbox;
+    width:95%;
+    Margin-left:10%;
+    margin:auto;
+    background-color: #EABD9D;
+    border: solid 1px #222E22;
+}
+
+.intro{
+    display:flex;
+    height: 200px;
+    background-color: #222E22;
+    color: white;
+    justify-content: space-between;
+    font-family: 'EB Garamond', serif;
+    
+}
+ 
+.rightIntro{
+position: relative
+margin-top:0%;
+Margin-left: 14%;
+}
+
+.leftIntro{
+position:relative;
+Margin-top: 0%;
+margin-right:10%;
+
+}
+
+h1{
+    font-family: 'EB Garamond', serif;
+    font-size: 100px;
+    letter-spacing: 1px;
+
+}
+
+h2{
+    font-family: 'EB Garamond', serif;
+    font-size: 62px;
+}
+
+h3{
+    font-family: 'EB Garamond', serif;
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+p{
+    font-family: 'raleway', sans-serif;
+    font-size: 18px;
+    letter-spacing: 3px;
+    color: black
+}
+
+.para1{
+position:absolute
+top: 8px;
+left:0px;
+margin-top: 8px;
+margin-left: 0px;
+}
+
+.para2{
+
+}
+
+.myPic{
+
+
+}
+.bottomCaption{
+    text-align: center;
+    letter-spacing: 1px;
+    span
+
+}
 
 .content{
     width: 500px;
     margin: 0 auto;
+    font-family: 'raleway', sans-serif
 }  
 
-footer{
-    background-color: #EFE3CF;
-    width:99%;
-    padding: 1%;
-}
-footer ul{
-    display:inline-block;
-    vertical-align: top;
-}
-footer li{
-    padding:25%  
+button{
+    display: flex;
+    font-family: 'raleway', sans-serif;
+    color: white;
+    background-color:#222E22;
+    outline: 1px #000000;
+    margin: 15px;
+    padding: 15px;
+    box-shadow: black 1px 1px;
 }
 
-footer p{
+.arrowDown{
+    display:flex;
+    align-content: center;
+    padding-left: 0px;
+}
+
+footer{
+    margin:0px !important;
+    background-color: #EFE3CF;
+    display:flex;
+    width:95%;
+    margin:auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.footerCopywrite{
     text-align: right;
+    font-family: 'raleway', sans-serif;
+    font-size: 16px;
+    color: black
 }
