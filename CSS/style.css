@@ -2,11 +2,7 @@ img{
     max-width: 100%;
 }
 
-#allSections{
-    background-color: #EABD9D;
-    margin:0px !important;
 
-}
 body{
     margin:0px !important;
     font-family: 'Raleway', sans-serif;
@@ -20,11 +16,8 @@ header{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    border-color: 1px #222E22;
-    padding:10px;
-    width:95%;
-    Margin-left:10%;
-    margin:auto;
+    width:100%;
+    filter: drop-shadow(0px 4px 4px #EABD9D);
 }
 
 .navMenu{
@@ -42,12 +35,14 @@ header{
 .leftNav{
     display:flex;
     align-items: center;
+    padding: 0px 15px;
 
 }
 
 .rightNav{
     display:flex;
     align-items: center;
+    padding: 0px 15px;
 }
 
 .logo{
@@ -62,19 +57,18 @@ header{
     padding:10px;
 }
 
-#introductionPage{
-    display:flexbox;
+.introductionPage{
     width:95%;
-    Margin-left:10%;
-    margin:auto;
+    margin:1.5% 2.5% 0% 2.5%;
     background-color: #EABD9D;
     border: solid 1px #222E22;
 }
 
 .intro{
     display:flex;
-    height: 200px;
     background-color: #222E22;
+    height:200px;
+    filter: drop-shadow( 0px 3px 3px black);
     color: white;
     justify-content: space-between;
     font-family: 'EB Garamond', serif;
@@ -84,26 +78,25 @@ header{
 .rightIntro{
 position: relative;
 margin-top:0%;
-Margin-left: 14%;
+Margin-left: 15%;
 }
 
 .leftIntro{
 position:relative;
 Margin-top: 0%;
-margin-right:10%;
-
+margin-right:11%;
 }
 
 h1{
     font-family: 'EB Garamond', serif;
-    font-size: 100px;
+    font-size: 98px;
     letter-spacing: 1px;
-
 }
 
 h2{
     font-family: 'EB Garamond', serif;
     font-size: 62px;
+    letter-spacing: 1px;;
 }
 
 h3{
@@ -119,19 +112,28 @@ p{
     color: black;
 }
 
+.aboutMe{
+    display:inline-flexbox;
+    width:800px;
+}
+
+
 .para1{
-position:relative;
-top: 8px;
-left:0px;
-margin:auto;
+    display:flex;
+    justify-content: flex-start;
+    text-align: left;
+    padding-bottom:40px;
 }
 
 .para2{
-
+    display:flex;
+    justify-content: flex-end;
+    text-align: right;
 }
 
 .myPic{
-
+display:inline-flex;
+position:relative;
 
 }
 .bottomCaption{
@@ -147,35 +149,21 @@ margin:auto;
 }  
 
 button{
-    display: flex;
     font-family: 'raleway', sans-serif;
+    font-size: 21px;
     color: white;
     background-color:#222E22;
     outline: 1px #000000;
-    margin: 15px;
+    margin-bottom: 3%;
     padding: 15px;
-    box-shadow: black 1px 1px;
-}
-
-.arrowDown{
-    display:flex;
-    align-content: center;
+    filter: drop-shadow( 0px 3px 3px black);
 }
 
 footer{
     margin:0px !important;
     background-color: #EFE3CF;
     display:flex;
-    width:95%;
-    margin:auto;
+    width:100%;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px;   
-}
-
-.footerCopywrite{
-    text-align: right;
-    font-family: 'raleway', sans-serif;
-    font-size: 16px;
-    color: black;
+    align-items: center;  
 }
