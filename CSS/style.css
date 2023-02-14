@@ -34,8 +34,8 @@ header{
 .navMenu li{
     list-style: none;
     padding: 20px;
-    font-family: 'raleway', sans-serif
-    font-size: 33px;
+    font-family: 'raleway', sans-serif;
+    font-size: 21px;
     letter-spacing: 1px;
 }
 
@@ -82,7 +82,7 @@ header{
 }
  
 .rightIntro{
-position: relative
+position: relative;
 margin-top:0%;
 Margin-left: 14%;
 }
@@ -116,15 +116,14 @@ p{
     font-family: 'raleway', sans-serif;
     font-size: 18px;
     letter-spacing: 3px;
-    color: black
+    color: black;
 }
 
 .para1{
-position:absolute
+position:relative;
 top: 8px;
 left:0px;
-margin-top: 8px;
-margin-left: 0px;
+margin:auto;
 }
 
 .para2{
@@ -138,14 +137,13 @@ margin-left: 0px;
 .bottomCaption{
     text-align: center;
     letter-spacing: 1px;
-    span
 
 }
 
 .content{
     width: 500px;
     margin: 0 auto;
-    font-family: 'raleway', sans-serif
+    font-family: 'raleway', sans-serif;
 }  
 
 button{
@@ -162,7 +160,6 @@ button{
 .arrowDown{
     display:flex;
     align-content: center;
-    padding-left: 0px;
 }
 
 footer{
@@ -173,13 +170,12 @@ footer{
     margin:auto;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    
+    padding: 20px;   
 }
 
 .footerCopywrite{
     text-align: right;
     font-family: 'raleway', sans-serif;
     font-size: 16px;
-    color: black
+    color: black;
 }
